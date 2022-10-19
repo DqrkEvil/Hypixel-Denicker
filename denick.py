@@ -23,12 +23,13 @@ while True:
     time.sleep(1)
 
     try:
-        APIoutput = requests.get(f"https://api.antisniper.net/denick?nick={IGN}&key=1083033b-2c49-4211-82dc-341e72fe1cfb").json()
-        denicked = APIoutput["player"]["ign"]
-        print('Real IGN:', denicked)
-        print ("\n----------------------------------------------------------------")
-
+        APIoutput = requests.get(f"https://api.antisniper.net/denick?nick={IGN}&key=b846da83-ff45-49ff-9dab-8c74219b8e8b").json()
+        print(f'Real IGN: {APIoutput["player"]["ign"]}')
+        print(f'UUID: {APIoutput["player"]["uuid"]}')
+        print(f'Latest Nick: {APIoutput["player"]["latest_nick"]}')
+        
     except: 
         print('An error has occured, make sure this is a nick and that you spelled it correctly. Contact DqrkEvil#5456 if this happens repeatedly.')
-        time.sleep(10)
-        break
+        time.sleep(3)
+
+    print ("\n----------------------------------------------------------------")
