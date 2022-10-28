@@ -1,6 +1,8 @@
 # Description
 Application used for revealing the real player of Hypixel nicks. 
 
+Got archived due to discontinuation of antisniper.
+
 ## Installation
  - Go to [releases](https://github.com/DqrkEvil/Hypixel-Denicker/releases) and download [denick.exe](https://github.com/DqrkEvil/Hypixel-Denicker/releases/download/1.1.0/denick.exe)
  - Launch the denick.exe that you just downloaded and you're good to go!
